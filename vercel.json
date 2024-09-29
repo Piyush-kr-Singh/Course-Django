@@ -6,6 +6,7 @@
         "use": "@vercel/python"
       }
     ],
+    "buildCommand": "bash build_files.sh",
     "routes": [
       {
         "src": "/(.*)",
